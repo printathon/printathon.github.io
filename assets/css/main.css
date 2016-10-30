@@ -2178,6 +2178,13 @@
 
 /* Main */
 
+.faq{
+
+}
+.faq h3 {
+	color: #f35858;
+}
+
 	#main {
 		padding-bottom: 4em;
 	}
@@ -2206,6 +2213,8 @@
 		#footer header.major {
 			margin-bottom: 3em;
 		}
+
+
 
 /* Copyright */
 
@@ -2371,6 +2380,7 @@
 			body, input, textarea, select {
 				line-height: 1.5em;
 				font-size: 14pt;
+				text-align: right;
 			}
 
 			span.extra {
@@ -2404,7 +2414,7 @@
 		/* List */
 
 			ul.menu {
-				text-align: center;
+				text-align: right;
 			}
 
 				ul.menu li {
