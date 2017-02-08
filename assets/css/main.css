@@ -12,6 +12,10 @@
 	padding: 1em 1em 1em 1em;
 }
 
+.companies > img {
+	height: 100px;
+}
+
 .text{
 	padding-bottom: 5px;
 }
@@ -2294,7 +2298,6 @@
 		}
 
 
-
 /* Hero */
 #particles-js{
   width: 100%;
@@ -2397,9 +2400,6 @@
 
 /* Main */
 
-.faq{
-
-}
 .faq h3 {
 	color: #f35858;
 }
