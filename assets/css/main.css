@@ -10,6 +10,7 @@
 /* Reset */
 .companies {
 	padding: 1em 1em 1em 1em;
+	margin-left: 60px;
 }
 
 .companies > img {
