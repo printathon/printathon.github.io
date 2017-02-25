@@ -13,17 +13,20 @@
 	margin-left: 60px;
 }
 
-.companies > img {
+/*.companies > img {
 	height: 100px;
-}
+}*/
 
 .text{
 	padding-bottom: 5px;
 }
 .logo{
-	height: 200px;
+	height: 100px;
 	padding: 0px 5px 0px 5px;
-
+}
+.minor-logo{
+	height: 75px;
+	padding: 0px 5px 0px 5px;
 }
 	#text-separator{
 		padding: 60px 0px 60px 0px;
