@@ -28,6 +28,10 @@
 	height: 75px;
 	padding: 0px 5px 0px 5px;
 }
+.minor-logo-2{
+	height: 50px;
+	padding: 0px 5px 0px 5px;
+}
 	#text-separator{
 		padding: 60px 0px 60px 0px;
 		background: url('../../images/Printathon-Text-Separator.png') no-repeat center center;
