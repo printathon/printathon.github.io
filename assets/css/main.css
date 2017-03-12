@@ -21,7 +21,7 @@
 	padding-bottom: 5px;
 }
 .logo{
-	height: 100px;
+	height: 150px;
 	padding: 0px 5px 0px 5px;
 }
 .minor-logo{
@@ -30,6 +30,10 @@
 }
 .minor-logo-2{
 	height: 50px;
+	padding: 0px 5px 0px 5px;
+}
+.minor-logo-3{
+	width: 275px;
 	padding: 0px 5px 0px 5px;
 }
 	#text-separator{
