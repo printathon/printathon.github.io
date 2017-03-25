@@ -15,7 +15,6 @@
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
 }
 
 /*.companies > img {
@@ -2257,6 +2256,7 @@
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
 		z-index: 1;
+		height: 100vh;
 	}
 
 
