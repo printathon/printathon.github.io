@@ -84,8 +84,13 @@ section {
 
 .teams-and-prizes > div > div > h2 {
 	align-self: flex-start;
-	padding: 20px 0;
+	padding-top: 20px;
 	font-weight: bold;
+}
+
+.teams-and-prizes > div > div > .description {
+	border: none;
+	text-align: left;
 }
 
 .teams-and-prizes > div > div > .prize {
