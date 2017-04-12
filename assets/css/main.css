@@ -3,12 +3,16 @@
 
 /* Reset */
 .companies {
-	padding: 1em 1em 1em 1em;
+	padding: 0em 1em 1em 1em;
 	margin-left: 60px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+}
+
+#leadin{
+	margin-bottom: 0px;
 }
 
 .text{
@@ -1733,6 +1737,10 @@ header > p {
 	padding: 0.75em 0 1em 0;
 	font-size: 1.5em;
 	line-height: 1.5em;
+}
+
+header > p:last-of-type{
+	padding-bottom: 0px;
 }
 
 header.major {

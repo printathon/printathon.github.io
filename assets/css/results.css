@@ -13,6 +13,7 @@ section {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding-bottom: 10px;
+	text-align: left;
 }
 
 .printathon-logo {
@@ -34,16 +35,16 @@ section {
 	text-align: left;
 }
 
-.theme > p:before {
-	content: '\2022\ ';
-	padding-left: 30px;
-}
-
 .theme > h2 {
-
+	padding-bottom: 5px;
 }
 
 /* Teams and Prizes */
+
+#in-a-can{
+	font-size: 1.5em;
+}
+
 .teams-and-prizes {
 	max-width: 1000px;
 	margin: 0 auto;
