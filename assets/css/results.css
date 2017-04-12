@@ -6,11 +6,11 @@
 /* Results section */
 
 section {
-	padding: 15px;
+	padding: 10px;
 }
 
 .results > p {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding-bottom: 10px;
 }
@@ -27,29 +27,45 @@ section {
 /* Theme */
 
 .theme {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .theme > p:before {
 	content: '\2022\ ';
+	padding-left: 30px;
+}
+
+.theme > h2 {
+	margin-bottom: 5px;
 }
 
 /* Teams and Prizes */
 .teams-and-prizes {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
-.teams-and-prizes > ul > li:before {
-	content: '\2022\ ';
+.teams-and-prizes > h2 {
+	margin-bottom: 5px;
+}
+
+.teams-and-prizes > h3 {
+	margin-bottom: 5px;
+}
+
+.teams-and-prizes > ul {
 	padding-left: 30px;
 }
 
 /* Events */
 .events {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.events > h2 {
+	margin-bottom: 5px;
 }
 
 .events > ul > li:before {
@@ -58,12 +74,15 @@ section {
 }
 
 .judges {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.judges > h2 {
+	margin-bottom: 5px;
 }
 
 .judges > ul > li:before {
 	content: '\2022\ ';
 	padding-left: 30px;
 }
-
