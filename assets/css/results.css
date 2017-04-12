@@ -3,11 +3,11 @@
 	padding: 0;
 }
 
-/* Results section */
-
 section {
-	padding: 10px;
+	padding: 30px;
 }
+
+/* Results section */
 
 .results > p {
 	max-width: 1200px;
@@ -25,10 +25,13 @@ section {
 }
 
 /* Theme */
-
 .theme {
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.theme > p {
+	text-align: left;
 }
 
 .theme > p:before {
@@ -37,12 +40,12 @@ section {
 }
 
 .theme > h2 {
-	margin-bottom: 5px;
+
 }
 
 /* Teams and Prizes */
 .teams-and-prizes {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -50,12 +53,30 @@ section {
 	margin-bottom: 5px;
 }
 
-.teams-and-prizes > h3 {
-	margin-bottom: 5px;
+.teams-and-prizes > div {
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.teams-and-prizes > ul {
-	padding-left: 30px;
+.teams-and-prizes > div > div {
+	margin: 0 auto;
+	width: 30%;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.teams-and-prizes > div > div > h2, p {
+	text-align: center;
+}
+
+.teams-and-prizes > div > div > .prize {
+	margin-top: 5px;
+}
+
+.teams-and-prizes > div > div > img {
+	width: 100%;
 }
 
 /* Events */
