@@ -50,11 +50,11 @@ section {
 }
 
 .float > .judges {
-	float: left;
+	float: right;
 }
 
 .float > .theme {
-	float: right;
+	float: left;
 }
 
 @media all and (max-width: 900px) {
@@ -69,6 +69,12 @@ section {
 	}
 }
 
+.judges-and-theme {
+	max-width: 1200px;
+	margin: 0 auto;
+	clear: both;
+}
+
 .judges {
 	width: 50%;
 	margin: 0 auto;
@@ -79,11 +85,25 @@ section {
 
 .judges > h2 {
 	margin-bottom: 5px;
+	text-align: center;
 }
 
-.judges > ul > li:before {
+#jank {
+	pointer-events: none;
+	color: white;
+	-webkit-user-select: none; /* Chrome/Safari */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+	/* Rules below not implemented in browsers yet */
+	-o-user-select: none;
+	user-select: none;
+}
+
+.judges > ul > li {
+	list-style: circle;
 	content: '\2022\ ';
-	padding-left: 30px;
+	margin-left: 30px;
 }
 
 .theme {
@@ -96,8 +116,13 @@ section {
 
 }
 
+.theme > p {
+	text-align: justify;
+}
+
 #theme-fancy {
 	font-family: "fabfeltscriptbold";
+	white-space: nowrap;
 	font-weight: normal;
 	color: rgb(255, 51, 51);
 }
@@ -194,4 +219,3 @@ section {
 	content: '\2022\ ';
 	padding-left: 30px;
 }
-
