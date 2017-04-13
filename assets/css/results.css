@@ -278,7 +278,7 @@ section.events {
     .footer>iframe {
         width: 100%;
     }
-    .footer>iframe, div {
+    .footer>iframe div {
         margin: 15px;
     }
 }
