@@ -7,6 +7,7 @@ section {
 	padding: 30px;
 }
 
+
 /* Results section */
 
 .results > p {
@@ -48,6 +49,47 @@ section {
 
 }
 
+.float > .judges {
+	float: left;
+}
+
+.float > .theme {
+	float: right;
+}
+
+@media all and (max-width: 900px) {
+	.float > .judges {
+		float: none;
+		width: 100%;
+	}
+
+	.float > .theme {
+		float: none;
+		width: 100%;
+	}
+}
+
+.judges {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.judges > ul > li > span {
+}
+
+.judges > h2 {
+	margin-bottom: 5px;
+}
+
+.judges > ul > li:before {
+	content: '\2022\ ';
+	padding-left: 30px;
+}
+
+.theme {
+	width: 50%;
+}
+
 .theme > h2 {
 	padding-bottom: 5px;
 	text-align: center;
@@ -69,6 +111,7 @@ section {
 .teams-and-prizes {
 	max-width: 1200px;
 	margin: 0 auto;
+	clear: both;
 }
 
 .teams-and-prizes > h2 {
@@ -152,16 +195,3 @@ section {
 	padding-left: 30px;
 }
 
-.judges {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.judges > h2 {
-	margin-bottom: 5px;
-}
-
-.judges > ul > li:before {
-	content: '\2022\ ';
-	padding-left: 30px;
-}
