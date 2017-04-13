@@ -91,6 +91,17 @@ section {
 	align-items: center;
 }
 
+@media all and (max-width: 1050px) {
+	.teams-and-prizes > div > div {
+		width: 40%;
+	}
+}
+
+@media all and (max-width: 650px) {
+	.teams-and-prizes > div > div {
+		width: 100%;
+	}
+}
 
 .teams-and-prizes > div > div > h2, p {
 	text-align: center;
