@@ -5,8 +5,7 @@
 
 .companies {
     display: flex;
-    margin-left: 60px;
-    padding: 0em 1em 1em 1em;
+    padding: 1em;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

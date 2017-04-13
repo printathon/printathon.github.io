@@ -226,6 +226,12 @@ section.events {
 	list-style: circle;
 }
 
+@media all and (max-width: 600px) {
+	.events>ul>li {
+		margin-left: 30px;
+	}
+}
+
 
 /* Footer */
 
