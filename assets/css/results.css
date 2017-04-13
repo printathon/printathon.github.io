@@ -4,7 +4,7 @@
 }
 
 section {
-    padding: 30px;
+    padding: 20px 30px 20px 30px;
 }
 
 
@@ -206,10 +206,6 @@ section {
     border-radius: 5px 0 0 0;
 }
 
-section.teams-and-prizes {
-	padding-bottom: 0px;
-}
-
 /* Events */
 
 section.events {
@@ -225,9 +221,9 @@ section.events {
     margin-bottom: 5px;
 }
 
-.events>ul>li:before {
-    padding-left: 30px;
-    content: '\2022\ ';
+.events>ul>li {
+	margin-left: 100px;
+	list-style: circle;
 }
 
 
