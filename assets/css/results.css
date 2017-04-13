@@ -206,8 +206,15 @@ section {
     border-radius: 5px 0 0 0;
 }
 
+section.teams-and-prizes {
+	padding-bottom: 0px;
+}
 
 /* Events */
+
+section.events {
+	padding-top: 0px;
+}
 
 .events {
     max-width: 1200px;
