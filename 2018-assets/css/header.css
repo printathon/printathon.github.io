@@ -1,0 +1,28 @@
+.header {
+	height: 85vh;
+	background-image: url("../imgs/printathon-2018-logo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.header > h1 {
+
+}
+
+.header > .header--info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.header > .header--info > h2 {
+
+}
+
+.header > .header--info > p {
+
+}

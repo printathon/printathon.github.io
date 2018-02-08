@@ -1,0 +1,44 @@
+.footer {
+	background: rgba(176, 190, 209, .1);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer > iframe {
+	margin:30px;
+}
+
+.footer > .footer--contact-us {
+
+}
+
+.footer > .footer--contact-us > a {
+
+}
+
+.footer > .footer--contact-us > a > img {
+	width: 500px;
+}
+
+
+.footer > .footer--contact-us > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer > .footer--contact-us > div > a {
+	margin: 0 30px;
+	color: black;
+}
+
+.footer > .footer--contact-us > div > a:hover {
+	margin: 0 30px;
+	color: black;
+	cursor: pointer;
+}
+
+.footer > .footer--contact-us > div > a > svg {
+	font-size: 2em;
+}

@@ -1,0 +1,21 @@
+.information {
+
+}
+
+.information > p {
+	margin: 0 auto;
+	padding: 10px;
+	width: 75vw;
+	line-height: 150%;
+	font-size: .8em;
+}
+
+@media all and (max-width: 750px) {
+	.information > p {
+		width: 90%;
+	}
+}
+
+.information > p:first-child {
+	padding-top: 30px;
+}

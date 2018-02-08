@@ -1,0 +1,15 @@
+.theme {
+	margin: 0 auto;
+	width: 50%;
+	padding: 30px;
+}
+
+.theme > h2 {
+	text-align: center;
+}
+
+.theme > p {
+	margin-top: 15px;
+	font-weight: 300;
+	text-align: justify;
+}
