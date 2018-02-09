@@ -1,31 +1,47 @@
 .information {
+
+}
+
+.information > h1 {
+	margin-top: 30px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 50px;
+	color: red;
+	text-align: center;
+}
+
+.information > h2 {
+	text-align: center;
+}
+
+.information > .container {
 	margin-top: 30px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.information > h2 {
+.information > .container > h2 {
 	padding: 30px;
 	text-align: center;
 }
 
-.information > div {
+.information > .container > div {
 	margin: 0 auto;
 	width: 800px;
 }
 
-.information > div > p {
+.information > .container > div > p {
 	padding: 10px 30px;
 	font-family: 'Nanum Myeongjo', serif;
 }
 
-.information > p:first-child {
+.information > .container > p:first-child {
 	padding-top: 30px;
 }
 
 @media all and (max-width: 1000px) {
-	.information {
+	.information > .container {
 		padding: 0;
 		margin: 0 auto;
 		width: 90%;
@@ -33,7 +49,7 @@
 		align-items: center;
 	}
 
-	.information > div {
+	.information > .container > div {
 		width: 100%;
 	}
 }

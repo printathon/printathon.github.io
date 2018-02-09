@@ -1,0 +1,30 @@
+nav {
+	background-color: rgb(234, 234, 234);
+	display: flex;
+	align-items: center;
+	width: 100vw;
+	height: 80px;
+	position: absolute;
+	top: 0;
+}
+
+nav > ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav > ul > li {
+	padding: 0 30px;
+	color: rgb(46, 89, 146);
+}
+
+nav > ul > a {
+	color: rgb(46, 89, 146);
+	text-decoration: none;
+}
+
+nav > ul > a  > li {
+	padding: 0 30px;
+
+}
