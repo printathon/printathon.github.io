@@ -1,21 +1,39 @@
 .information {
-
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-.information > p {
+.information > h2 {
+	padding: 30px;
+	text-align: center;
+}
+
+.information > div {
 	margin: 0 auto;
-	padding: 10px;
-	width: 75vw;
-	line-height: 150%;
-	font-size: .8em;
+	width: 800px;
 }
 
-@media all and (max-width: 750px) {
-	.information > p {
-		width: 90%;
-	}
+.information > div > p {
+	padding: 10px 30px;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 .information > p:first-child {
 	padding-top: 30px;
+}
+
+@media all and (max-width: 1000px) {
+	.information {
+		padding: 0;
+		margin: 0 auto;
+		width: 90%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.information > div {
+		width: 100%;
+	}
 }

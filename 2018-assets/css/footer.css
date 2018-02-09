@@ -18,7 +18,8 @@
 }
 
 .footer > .footer--contact-us > a > img {
-	width: 500px;
+	width: 70%;
+	max-width: 500px
 }
 
 

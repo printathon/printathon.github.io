@@ -1,11 +1,17 @@
 .theme {
 	margin: 0 auto;
-	width: 50%;
+	max-width: 700px;
+	width: 80%;
 	padding: 30px;
 }
 
 .theme > h2 {
 	text-align: center;
+}
+
+.theme > h2 > span {
+	font-family: 'Architects Daughter', cursive;
+	color: red;
 }
 
 .theme > p {
