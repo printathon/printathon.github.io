@@ -5,7 +5,7 @@
 	justify-content: center;
 	margin: 30px;
 }
-.button-container > button {
+.button-container > a {
 	width: 200px;
 	height: 100px;
 	background: rgb(255, 0, 0);
@@ -15,7 +15,7 @@
 	transition: all .1s ease-in;
 }
 
-.button-container > button:hover {
+.button-container > a:hover {
 	cursor: url("../imgs/cursor.png"), auto;
 	background: green;
 }
