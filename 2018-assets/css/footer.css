@@ -9,9 +9,7 @@
 	margin:30px;
 }
 
-.footer > .footer--contact-us {
-
-}
+.footer > .footer--contact-us {width: 31%;}
 
 .footer > .footer--contact-us > a {
 
@@ -25,8 +23,9 @@
 
 .footer > .footer--contact-us > div {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	width: 100%;
 }
 
 .footer > .footer--contact-us > div > a {

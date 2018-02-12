@@ -1,0 +1,21 @@
+*{
+}
+.button-container {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+.button-container > button {
+	width: 200px;
+	height: 100px;
+	background: rgb(255, 0, 0);
+	border-radius: 5px;
+	font-size: 35px;
+	color: white;
+	transition: all .1s ease-in;
+}
+
+.button-container > button:hover {
+	cursor: url("../imgs/cursor.png"), auto;
+	background: green;
+}
