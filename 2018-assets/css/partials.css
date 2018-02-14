@@ -1,21 +1,25 @@
-*{
-}
 .button-container {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	margin: 30px;
 }
-.button-container > button {
+.button-container > a {
 	width: 200px;
 	height: 100px;
+	text-decoration: none;
+	text-align: center;
 	background: rgb(255, 0, 0);
 	border-radius: 5px;
 	font-size: 35px;
 	color: white;
 	transition: all .1s ease-in;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.button-container > button:hover {
+.button-container > a:hover {
 	cursor: url("../imgs/cursor.png"), auto;
 	background: green;
 }
